@@ -1,0 +1,73 @@
+name: Backfill Historical XSMN Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      from_date:
+        description: "Ngày bắt đầu (YYYY-MM-DD, mặc định: 2008-01-01)"
+        required: false
+        default: "2008-01-01"
+      to_date:
+        description: "Ngày kết thúc (YYYY-MM-DD, để trống = hôm nay)"
+        required: false
+        default: ""
+      delay:
+        description: "Thời gian chờ giữa các lần tải (giây, mặc định: 2.0)"
+        required: false
+        default: "2.0"
+      no_analyze:
+        description: "Bỏ qua vẽ biểu đồ - nên bật khi backfill (true/false)"
+        required: false
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  backfill-xsmn:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Backfill XSMN data
+        run: |
+          FROM="${{ github.event.inputs.from_date }}"
+          TO="${{ github.event.inputs.to_date }}"
+          DELAY="${{ github.event.inputs.delay }}"
+          NO_ANALYZE="${{ github.event.inputs.no_analyze }}"
+
+          FLAGS="--from $FROM --delay $DELAY"
+          if [ -n "$TO" ]; then
+            FLAGS="$FLAGS --to $TO"
+          fi
+          if [ "$NO_ANALYZE" = "true" ]; then
+            FLAGS="$FLAGS --no-analyze"
+          fi
+
+          python src/main_xsmn.py $FLAGS
+
+      - name: Run analysis after backfill
+        if: ${{ github.event.inputs.no_analyze != 'true' }}
+        run: python src/main_xsmn.py --no-analyze || true
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/xsmn/ images/xsmn/
+          git diff --cached --quiet || git commit -m "chore(data): backfill XSMN ${{ github.event.inputs.from_date }} → ${{ github.event.inputs.to_date || 'today' }}"
+          git push

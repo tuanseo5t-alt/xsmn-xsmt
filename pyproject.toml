@@ -1,0 +1,41 @@
+[project]
+name = "vietnam-lottery-xsmn-xsmt-analysis"
+version = "0.1.0"
+description = "Using GitHub Action to automatically fetch and analyze results of the Vietnam Southern (XSMN) and Central (XSMT) lottery daily."
+authors = [
+    {name = "Your Name", email = "your@email.com"},
+]
+
+readme = "README.md"
+license = {text = "MIT"}
+
+requires-python = ">=3.11"
+
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=4.9.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+]
+
+[dependency-groups]
+testing = [
+    "pytest",
+]
+linting = [
+    "isort",
+    "ruff",
+]
+
+[tool.isort]
+line_length = 120
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"

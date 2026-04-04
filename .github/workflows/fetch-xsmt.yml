@@ -1,0 +1,49 @@
+name: Daily Fetch XSMT
+
+on:
+  schedule:
+    # Chạy lúc 19:30 giờ Việt Nam (12:30 UTC) mỗi ngày
+    - cron: "30 12 * * *"
+  workflow_dispatch:
+    inputs:
+      no_analyze:
+        description: "Bỏ qua bước vẽ biểu đồ (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-xsmt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch today XSMT data
+        run: |
+          FLAGS=""
+          if [ "${{ github.event.inputs.no_analyze }}" = "true" ]; then
+            FLAGS="--no-analyze"
+          fi
+          python src/main_xsmt.py $FLAGS
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/xsmt/ images/xsmt/
+          git diff --cached --quiet || git commit -m "chore(data): update XSMT $(date +'%Y-%m-%d')"
+          git push
