@@ -32,6 +32,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Create data directories
+        run: |
+          mkdir -p data/xsmn
+          mkdir -p images/xsmn
+
       - name: Fetch today XSMT data
         run: |
           FLAGS=""
