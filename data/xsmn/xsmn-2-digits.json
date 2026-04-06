@@ -14132,16 +14132,29 @@
   },
   {
     "date": "2026-04-06",
+    "station": "Cà Mau",
+    "special": "17",
+    "first": "15",
+    "second": "55",
+    "third": "69, 31",
+    "fourth": "84, 66, 73, 88, 56, 16, 57",
+    "fifth": "72",
+    "sixth": "31, 11, 41",
+    "seventh": "32",
+    "eighth": "45"
+  },
+  {
+    "date": "2026-04-06",
     "station": "Hồ Chí Minh",
-    "special": "32",
-    "first": "12",
-    "second": "48",
-    "third": "51, 57",
-    "fourth": "44, 44, 18, 23, 94, 76, 68",
-    "fifth": "00",
-    "sixth": "41, 80, 82",
+    "special": "65",
+    "first": "63",
+    "second": "26",
+    "third": "68, 86",
+    "fourth": "08, 20, 47, 62, 66, 91, 31",
+    "fifth": "22",
+    "sixth": "87, 38, 94",
     "seventh": "31",
-    "eighth": "44"
+    "eighth": "97"
   },
   {
     "date": "2026-04-06",
