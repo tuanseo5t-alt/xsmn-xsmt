@@ -2,8 +2,8 @@ name: Daily Fetch XSMT
 
 on:
   schedule:
-    # Chạy lúc 19:30 giờ Việt Nam (12:30 UTC) mỗi ngày
-    - cron: "30 12 * * *"
+     # Chạy lúc 16:55 giờ Việt Nam (09:55 UTC) mỗi ngày
+    - cron: "55 9 * * *"
   workflow_dispatch:
     inputs:
       no_analyze:
