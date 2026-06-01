@@ -17262,5 +17262,70 @@
     "sixth": "63, 57, 12",
     "seventh": "69",
     "eighth": "11"
+  },
+  {
+    "date": "2026-06-01",
+    "station": "31/05/2026",
+    "special": "87",
+    "first": "59",
+    "second": "81",
+    "third": "03, 84",
+    "fourth": "68, 92, 90, 05, 48, 99, 26",
+    "fifth": "70",
+    "sixth": "17, 82, 69",
+    "seventh": "11",
+    "eighth": "14"
+  },
+  {
+    "date": "2026-06-01",
+    "station": "Cà Mau",
+    "special": "58",
+    "first": "29",
+    "second": "20",
+    "third": "42, 84",
+    "fourth": "76, 97, 70, 61, 44, 96, 49",
+    "fifth": "40",
+    "sixth": "74, 61, 25",
+    "seventh": "09",
+    "eighth": "39"
+  },
+  {
+    "date": "2026-06-01",
+    "station": "Hồ Chí Minh",
+    "special": "87",
+    "first": "34",
+    "second": "69",
+    "third": "03, 94",
+    "fourth": "64, 10, 73, 51, 33, 52, 53",
+    "fifth": "99",
+    "sixth": "44, 57, 06",
+    "seventh": "72",
+    "eighth": "08"
+  },
+  {
+    "date": "2026-06-01",
+    "station": "Tiền Giang",
+    "special": "41",
+    "first": "85",
+    "second": "50",
+    "third": "52, 14",
+    "fourth": "81, 94, 23, 96, 52, 96, 75",
+    "fifth": "69",
+    "sixth": "62, 25, 26",
+    "seventh": "52",
+    "eighth": "92"
+  },
+  {
+    "date": "2026-06-01",
+    "station": "Đồng Tháp",
+    "special": "50",
+    "first": "04",
+    "second": "07",
+    "third": "44, 17",
+    "fourth": "85, 10, 00, 52, 63, 97, 74",
+    "fifth": "20",
+    "sixth": "63, 57, 12",
+    "seventh": "69",
+    "eighth": "11"
   }
 ]
