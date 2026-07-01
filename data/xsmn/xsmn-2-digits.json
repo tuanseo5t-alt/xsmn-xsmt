@@ -19277,5 +19277,70 @@
     "sixth": "68, 10, 72",
     "seventh": "30",
     "eighth": "71"
+  },
+  {
+    "date": "2026-07-01",
+    "station": "Bến Tre",
+    "special": "59",
+    "first": "52",
+    "second": "86",
+    "third": "74, 53",
+    "fourth": "40, 44, 50, 18, 50, 00, 88",
+    "fifth": "55",
+    "sixth": "50, 08, 01",
+    "seventh": "71",
+    "eighth": "27"
+  },
+  {
+    "date": "2026-07-01",
+    "station": "Cần Thơ",
+    "special": "03",
+    "first": "58",
+    "second": "83",
+    "third": "26, 34",
+    "fourth": "73, 84, 56, 29, 28, 72, 95",
+    "fifth": "78",
+    "sixth": "91, 28, 54",
+    "seventh": "45",
+    "eighth": "40"
+  },
+  {
+    "date": "2026-07-01",
+    "station": "Sóc Trăng",
+    "special": "87",
+    "first": "65",
+    "second": "01",
+    "third": "58, 73",
+    "fourth": "70, 97, 37, 30, 09, 70, 65",
+    "fifth": "44",
+    "sixth": "19, 61, 46",
+    "seventh": "96",
+    "eighth": "97"
+  },
+  {
+    "date": "2026-07-01",
+    "station": "Vũng Tàu",
+    "special": "66",
+    "first": "09",
+    "second": "25",
+    "third": "86, 85",
+    "fourth": "46, 45, 79, 77, 55, 34, 85",
+    "fifth": "16",
+    "sixth": "37, 21, 20",
+    "seventh": "48",
+    "eighth": "22"
+  },
+  {
+    "date": "2026-07-01",
+    "station": "Đồng Tháp",
+    "special": "46",
+    "first": "25",
+    "second": "94",
+    "third": "29, 10",
+    "fourth": "29, 44, 99, 35, 96, 88, 83",
+    "fifth": "43",
+    "sixth": "77, 45, 38",
+    "seventh": "34",
+    "eighth": "61"
   }
 ]
