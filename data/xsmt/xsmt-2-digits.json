@@ -10554,5 +10554,83 @@
     "sixth": "99, 93, 47",
     "seventh": "30",
     "eighth": "81"
+  },
+  {
+    "date": "2026-07-29",
+    "station": "27/07/2026",
+    "special": "18",
+    "first": "08",
+    "second": "04",
+    "third": "50, 58",
+    "fourth": "52, 52, 17, 51, 54, 20, 22",
+    "fifth": "28",
+    "sixth": "93, 91, 52",
+    "seventh": "73",
+    "eighth": "51"
+  },
+  {
+    "date": "2026-07-29",
+    "station": "Khánh Hòa",
+    "special": "55",
+    "first": "84",
+    "second": "07",
+    "third": "50, 48",
+    "fourth": "86, 49, 99, 98, 51, 22, 94",
+    "fifth": "25",
+    "sixth": "67, 82, 83",
+    "seventh": "36",
+    "eighth": "98"
+  },
+  {
+    "date": "2026-07-29",
+    "station": "Phú Yên",
+    "special": "58",
+    "first": "00",
+    "second": "54",
+    "third": "28, 42",
+    "fourth": "74, 81, 17, 75, 32, 38, 34",
+    "fifth": "38",
+    "sixth": "10, 76, 94",
+    "seventh": "95",
+    "eighth": "77"
+  },
+  {
+    "date": "2026-07-29",
+    "station": "Quảng Nam",
+    "special": "82",
+    "first": "55",
+    "second": "77",
+    "third": "58, 89",
+    "fourth": "43, 28, 97, 45, 61, 83, 66",
+    "fifth": "87",
+    "sixth": "92, 73, 47",
+    "seventh": "23",
+    "eighth": "27"
+  },
+  {
+    "date": "2026-07-29",
+    "station": "Đà Nẵng",
+    "special": "40",
+    "first": "73",
+    "second": "32",
+    "third": "35, 84",
+    "fourth": "32, 96, 68, 27, 86, 18, 93",
+    "fifth": "80",
+    "sixth": "17, 13, 24",
+    "seventh": "64",
+    "eighth": "58"
+  },
+  {
+    "date": "2026-07-29",
+    "station": "Đắk Lắk",
+    "special": "50",
+    "first": "81",
+    "second": "93",
+    "third": "49, 56",
+    "fourth": "49, 93, 21, 31, 22, 10, 95",
+    "fifth": "13",
+    "sixth": "99, 93, 47",
+    "seventh": "30",
+    "eighth": "81"
   }
 ]
