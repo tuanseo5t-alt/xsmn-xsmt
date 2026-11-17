@@ -28559,5 +28559,70 @@
     "sixth": "07, 86, 55",
     "seventh": "03",
     "eighth": "44"
+  },
+  {
+    "date": "2026-11-17",
+    "station": "Bến Tre",
+    "special": "34",
+    "first": "45",
+    "second": "16",
+    "third": "95, 00",
+    "fourth": "25, 40, 91, 38, 85, 22, 73",
+    "fifth": "59",
+    "sixth": "15, 63, 76",
+    "seventh": "58",
+    "eighth": "52"
+  },
+  {
+    "date": "2026-11-17",
+    "station": "Cà Mau",
+    "special": "81",
+    "first": "24",
+    "second": "30",
+    "third": "64, 82",
+    "fourth": "47, 46, 28, 21, 55, 21, 57",
+    "fifth": "13",
+    "sixth": "37, 29, 39",
+    "seventh": "52",
+    "eighth": "60"
+  },
+  {
+    "date": "2026-11-17",
+    "station": "Hồ Chí Minh",
+    "special": "23",
+    "first": "67",
+    "second": "54",
+    "third": "02, 22",
+    "fourth": "28, 53, 67, 65, 98, 05, 68",
+    "fifth": "31",
+    "sixth": "95, 38, 17",
+    "seventh": "75",
+    "eighth": "96"
+  },
+  {
+    "date": "2026-11-17",
+    "station": "Vũng Tàu",
+    "special": "64",
+    "first": "16",
+    "second": "46",
+    "third": "01, 49",
+    "fourth": "64, 58, 55, 43, 60, 31, 42",
+    "fifth": "12",
+    "sixth": "88, 91, 52",
+    "seventh": "97",
+    "eighth": "11"
+  },
+  {
+    "date": "2026-11-17",
+    "station": "Đồng Tháp",
+    "special": "47",
+    "first": "95",
+    "second": "24",
+    "third": "40, 62",
+    "fourth": "06, 72, 86, 46, 65, 23, 62",
+    "fifth": "60",
+    "sixth": "71, 34, 21",
+    "seventh": "88",
+    "eighth": "54"
   }
 ]
