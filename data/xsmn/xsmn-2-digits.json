@@ -28702,5 +28702,83 @@
     "sixth": "67, 74, 20",
     "seventh": "48",
     "eighth": "45"
+  },
+  {
+    "date": "2026-11-20",
+    "station": "An Giang",
+    "special": "79",
+    "first": "64",
+    "second": "73",
+    "third": "94, 65",
+    "fourth": "41, 79, 33, 09, 84, 26, 28",
+    "fifth": "87",
+    "sixth": "73, 22, 86",
+    "seventh": "53",
+    "eighth": "41"
+  },
+  {
+    "date": "2026-11-20",
+    "station": "Bình Thuận",
+    "special": "63",
+    "first": "28",
+    "second": "64",
+    "third": "67, 66",
+    "fourth": "11, 74, 47, 98, 39, 63, 59",
+    "fifth": "25",
+    "sixth": "73, 16, 60",
+    "seventh": "86",
+    "eighth": "83"
+  },
+  {
+    "date": "2026-11-20",
+    "station": "Bến Tre",
+    "special": "01",
+    "first": "26",
+    "second": "82",
+    "third": "25, 40",
+    "fourth": "66, 57, 74, 25, 89, 37, 20",
+    "fifth": "44",
+    "sixth": "05, 88, 78",
+    "seventh": "33",
+    "eighth": "25"
+  },
+  {
+    "date": "2026-11-20",
+    "station": "Tiền Giang",
+    "special": "92",
+    "first": "99",
+    "second": "61",
+    "third": "22, 93",
+    "fourth": "95, 21, 50, 16, 15, 28, 39",
+    "fifth": "00",
+    "sixth": "26, 25, 02",
+    "seventh": "77",
+    "eighth": "71"
+  },
+  {
+    "date": "2026-11-20",
+    "station": "Trà Vinh",
+    "special": "57",
+    "first": "99",
+    "second": "93",
+    "third": "38, 62",
+    "fourth": "61, 65, 90, 95, 02, 61, 95",
+    "fifth": "25",
+    "sixth": "58, 64, 91",
+    "seventh": "81",
+    "eighth": "35"
+  },
+  {
+    "date": "2026-11-20",
+    "station": "Vĩnh Long",
+    "special": "01",
+    "first": "73",
+    "second": "58",
+    "third": "84, 91",
+    "fourth": "75, 71, 45, 17, 05, 56, 95",
+    "fifth": "23",
+    "sixth": "30, 87, 63",
+    "seventh": "01",
+    "eighth": "65"
   }
 ]
